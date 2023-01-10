@@ -1,0 +1,178 @@
+#menu ul li{
+	list-style:none;
+	position:relative;
+}
+#menu ul li a{
+	color:white;
+	text-decoration:none;
+}
+#menu ul li ul
+{
+	display:none;
+	background:white;
+	box-shadow:1px 1px 5px 5px #C0C0C0;
+}
+#menu ul li:hover ul{
+	display:block;
+	position: absolute ;
+    
+	width:250px;
+}
+
+#menu ul li ul li a
+{
+	color: #000;
+}
+#menu ul li ul li:hover a{
+    display: block;
+    background: rgba(7, 170, 235, 0.295);
+    color: black
+    
+}
+.dkdn{
+    text-decoration: none;
+}
+/* ảnh dưới danh mục sản phẩm */
+.slide_1 img {
+	height: 280px;
+}
+/* Phần sách */
+.slide_hot img
+{
+	height:200px;
+}
+.slide_hot a
+{
+	text-decoration:none;
+	color:#000;
+}
+.slide_hot a p
+{
+	text-align:center;
+	font-weight:bold;
+}
+.sale
+{
+	background:linear-gradient(to right, red, pink);
+	color:#fff;
+	border-radius:20px;
+   
+	
+
+}
+.sale {
+	backface-visibility: hidden;
+}
+
+.slide_hot a .color{
+    color: red;
+}
+/* Trên hàng sách kinh tế */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+    
+  }
+.list-menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    flex-basis: 103px;
+   
+}
+.link-list-menu{
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+}
+.link-list-menu span{
+    color: #242424;
+    text-align: center;
+    display: block;
+    display: -webkit-box; 
+    text-transform: capitalize;
+}
+
+.link-list-menu img{
+    display: block;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+.menu{
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.link-list-menu img {
+    display: block;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* phần tìm kiếm nổi bật */
+.w3-item {
+    color: red;
+    text-transform: capitalize;
+    font-weight:bold;
+}
+.w3-large {
+    font-weight:bold;
+    color :red
+    
+}
+:hover.w3-large {
+    color: blueviolet;
+}
+
+
+/* footer*/
+.footer {
+    background: rgb(135, 166, 233) ;
+    padding: 25px 0;
+
+}
+
+.footer-img {
+    width: 100px;
+    margin-left:45px ;
+}
+
+.footer-heading {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-item {
+    font-size: 1.0rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 2.4rem;
+}
+
+.footer-item a {
+    font-size: 1.4rem;
+    color: #000;
+    text-decoration: none;
+    line-height: 2.8rem;
+}
+
+.footer-item:hover a {
+    color: var(--primary-color);
+}
